@@ -7,13 +7,11 @@ import (
 	"net"
 	"os"
 
-	"github.com/cloudfoundry/loggregatorlib/loggertesthelper"
-
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
 
-var testLogger = loggertesthelper.Logger()
+var testLogger = Logger()
 
 var _ = Describe("TaskListener", func() {
 	Describe("StartListening", func() {
