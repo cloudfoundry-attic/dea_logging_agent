@@ -3,3 +3,4 @@
 set -ex
 
 ginkgo -r -race -randomizeAllSpecs src/deaagent
+ginkgo -r -race -randomizeAllSpecs src/integration_tests
